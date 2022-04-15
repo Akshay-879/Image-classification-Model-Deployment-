@@ -1,0 +1,89 @@
+body{
+	background-image: url(https://www.cesarsway.com/wp-content/uploads/2019/06/AdobeStock_219922748.jpeg);
+	background-size: cover;
+}
+.container{  
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title{
+	text-align: center;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 90px;
+	font-family: 'Roboto', sans-serif;
+	color: #5d3c0d;
+}
+
+
+.upload_image{
+	text-align:center;
+	font-size: 55px;
+	color: #5d3c0d;
+	margin-bottom: 30px;
+}
+
+.choose_file{
+	text-align: center;
+	margin-bottom: 50px;
+
+	/* position:relative; */
+ 
+}
+
+.form-control {
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+	overflow: hidden;
+	/* position: absolute; */
+	z-index: -1;
+}
+
+.form-control + label{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+    font-weight: 700;
+    color: #5d3c0d;
+	border: 2px solid #5d3c0d;
+    background-color: transparent;
+	padding:10px 20px;
+	border-radius: 01.25em;
+	cursor: pointer;
+}
+
+.submit{
+	text-align: center;
+}
+
+.submit-btn-2{
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.submit-btn-2 + label{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+    font-weight: 700;
+    color: #5d3c0d;
+	border: 2px solid #5d3c0d;
+    background-color: transparent;
+	padding:8px 16px;
+	border-radius: 01.25em;
+	cursor: pointer;
+}
+
+.prediction{
+	text-align:center;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	color: #5d3c0d;
+	margin-top: 370px;
+}
